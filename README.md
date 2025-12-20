@@ -22,14 +22,21 @@ The project uses:
 ---
 
 ## 📂 Project Structure
-
-
-
-
-
-
-
-
+Lyrics-Lens/
+│
+├── lyrics_lens_delta/
+│   ├── _delta_log/
+│   │   └── 00000000000000000000.json
+│   └── part-00000-db90ec5e-04d5-45....
+│
+├── models/
+│   ├── lr_popularity.pkl
+│   └── rf_popularity.pkl
+│
+├── LYRICS LENS.ipynb
+├── Lyrics_Lens_Comprehensive_Presentation.pptx
+├── DEMO RECORDING LINK
+└── README.md
 ---
 
 ## 🧠 Use Cases Implemented
@@ -83,4 +90,10 @@ The project uses:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Lyrics-Lens-Text-Social-Web-Analytics.git
+2. Open the project folder
 
+3.Launch Jupyter Notebook
+
+4. Open LYRICS LENS.ipynb
+
+5. Run all cells sequentially from top to bottom
